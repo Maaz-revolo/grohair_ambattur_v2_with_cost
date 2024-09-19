@@ -1,0 +1,69 @@
+/* Ensure border-box is used */
+// @import "theme";
+
+
+
+
+
+$blk:#000;
+$bdr:#E0E0E0;
+$gry:#F8F8F8;
+
+// $rd:#E03300;
+// $l-rd:#FFF1F1;
+
+$rd:#FF5F5F;
+
+$blu:#72a3ec;
+$grn:#3EB194;
+
+$ylo:#FF8A00;
+$pnk:#ed1f24;;
+
+
+
+//::::::::::::: header start::::::::::
+
+
+
+.sml-banner {
+    background: #f6f6f6;
+    h2{
+        margin-bottom: 25px;
+    }
+}
+
+.terms-cnt-c-single {
+    margin-bottom: 30px;
+    h4 {
+        margin-bottom: 10px;
+    }
+    ul {
+        li{
+            padding: 5px 0 5px 20px;
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 13px;
+                width: 7px;
+                height: 7px;
+                background: $pnk;
+                border-radius: 100%;
+            }
+
+            a{
+                color: $pnk;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    p{
+        margin-bottom: 20px;
+        
+    }
+}

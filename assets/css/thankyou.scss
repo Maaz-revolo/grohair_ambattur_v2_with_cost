@@ -1,0 +1,25 @@
+// thank you page start
+
+.thankyou-sec{
+  .thankyou-sec-cont-c {
+    text-align: center;
+    height: calc(100vh - 100px);
+    padding: 50px 0;
+    flex-direction: column;
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+    h3{
+      margin: 50px 0;
+      span{
+        display: table;
+        width: 100%;   
+        margin-top: 10px;     
+      }
+    }
+  }
+}
+
+// thank you page end
