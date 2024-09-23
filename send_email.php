@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Name: $name <br> 
         Mobile: $mobile <br>
         Age: $age <br>
-        City: $city <br>
+        Branch: $city <br>
         ";
     }
 
@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 Last Name: $lastName <br>
                 Email: $email <br>
                 Mobile: $mobile <br>
-                City: $city <br>
+                Branch: $city <br>
                 Treatment: $treatment <br>
                 Comment: $message";
     }
@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $subject = 'Appointment';
         $body = "Full  Name: $fullName <br> 
         Mobile: $mobile <br>
-        City: $city <br>
+        Branch: $city <br>
         Treatment: $treatment <br>
         Detail Requirements: $message <br>
         Grade of baldness : $baldGrade <br>

@@ -66,14 +66,15 @@
 </script> -->
 
 <script>
-	document.addEventListener('click', function(e) {
-		if (e.target.closest('[href^="tel:"]')) {
+	window.addEventListener('load', function() {
+		jQuery('[href*="tel:"]').click(function() {
 			gtag('event', 'conversion', {
           'send_to': 'AW-16495278159/9vvCCPXB_7UZEM_wx7k9'
 			});
-		}
+		});
 	})
 </script>
+
 <script>
 	window.addEventListener('load', function() {
 		jQuery('[href*="wa.me"]').click(function() {

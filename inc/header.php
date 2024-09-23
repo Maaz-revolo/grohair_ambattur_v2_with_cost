@@ -7,14 +7,17 @@ $loadEnquiryModalPopup = !isset($_COOKIE['enquiry_submitted']);
 <html>
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11477093387"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-11477093387');
-</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11477093387"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'AW-11477093387');
+	</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:url" content="https://ambtransplant.hairtransplantchennai.com/" />
@@ -46,7 +49,7 @@ $loadEnquiryModalPopup = !isset($_COOKIE['enquiry_submitted']);
 	<link href="assets/css/privacy.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/responsive.css?v=1" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
+		(function(c, l, a, r, i, t, y) {
 			c[a] = c[a] || function() {
 				(c[a].q = c[a].q || []).push(arguments)
 			};
@@ -55,8 +58,8 @@ $loadEnquiryModalPopup = !isset($_COOKIE['enquiry_submitted']);
 			t.src = "https://www.clarity.ms/tag/" + i;
 			y = l.getElementsByTagName(r)[0];
 			y.parentNode.insertBefore(t, y);
-    })(window, document, "clarity", "script", "nokaa5dqvy");
-</script>
+		})(window, document, "clarity", "script", "nokaa5dqvy");
+	</script>
 </head>
 
 <body>
@@ -126,7 +129,7 @@ $loadEnquiryModalPopup = !isset($_COOKIE['enquiry_submitted']);
 								</div>
 								<div class="fieldsets">
 									<select name="" id="modal_popup_appointment_city">
-										<option value="" selected=""> Select City </option>
+										<option value="" selected=""> Select Branch </option>
 										<option value="Ambattur"> Ambattur </option>
 										<option value="Velachery"> Velachery </option>
 										<option value="Porur"> Porur </option>
